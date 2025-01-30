@@ -1,0 +1,44 @@
+#content {
+    background-color: rgb(69, 163, 221);
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+p {
+    color: white;
+    margin: 0 auto;
+    width: 450px;
+    line-height: 2em;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3 {
+    color: white;
+    text-align: center;
+}
+ol {
+    font-weight: bold;
+    margin: 0 500px;
+    line-height: 2em;
+}
+img {
+    width: 200px;
+    margin: 20px auto;
+    display: block;
+}
+h2 {
+    width: 400px;
+    color: white;
+    line-height: 1.5em;
+    margin: auto;
+    text-align: center;
+}
+p.ending {
+    text-align: center;
+    color: black;
+    line-height: normal;
+    padding: 30px;
+}
