@@ -59,7 +59,6 @@ nav a {
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px;
     min-height: 400px;
 }
 
@@ -72,7 +71,6 @@ nav a {
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 100px;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 40px;
     border-radius: 10px;
@@ -227,8 +225,8 @@ footer p a:hover {
     text-decoration: underline;
 }
 
-/* Workout Subpage */
-.workout-grid {
+/* Workout and Nutrition Subpage */
+.workout-grid, .nutrition-grid {
     background-color: #90a4c0;
 }
 #workout-hero {
@@ -278,7 +276,7 @@ footer p a:hover {
     font-family: 'Bebas Neue', 'Bradley Hand', sans-serif;
 }
 
-.splits {
+.splits, .nutrition {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -291,7 +289,7 @@ footer p a:hover {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.splits img {
+.splits img, .nutrition img {
     width: 100%;
     max-width: 500px;
     border-radius: 10px;
@@ -302,15 +300,14 @@ footer p a:hover {
     max-width: 500px;
 }
 
-.splits h2 {
+.splits h2, .nutrition h2 {
     font-size: 1.8rem;
     font-family: 'Bebas Neue', 'Bradley Hand', sans-serif;
     color: #333;
 }
 
-.splits p {
+.splits p, .nutrition p {
     font-size: 1rem;
     color: #555;
     font-family: Lato, Arial, sans-serif;
 }
-
